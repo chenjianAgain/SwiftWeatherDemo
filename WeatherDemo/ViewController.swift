@@ -65,7 +65,7 @@ class ViewController: UIViewController {
     }
     
     private func clearAllControls() {
-        var imageViews = [self.icon, self.image1, self.image2, self.image3, self.image4]
+        let imageViews = [self.icon, self.image1, self.image2, self.image3, self.image4]
         for imageView: UIImageView in imageViews {
             imageView.image = nil
         }
