@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811C6EAC1BA85CD5004007B3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C6EAB1BA85CD5004007B3 /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		811C6EAE1BA85E49004007B3 /* WeatherService_AFNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C6EAD1BA85E49004007B3 /* WeatherService_AFNetworking.swift */; settings = {ASSET_TAGS = (); }; };
+		811C6EB01BA8CB70004007B3 /* WeatherService_Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C6EAF1BA8CB70004007B3 /* WeatherService_Alamofire.swift */; settings = {ASSET_TAGS = (); }; };
 		81D6689F1BA7E8F4001CC403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6689E1BA7E8F4001CC403 /* AppDelegate.swift */; };
 		81D668A11BA7E8F4001CC403 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D668A01BA7E8F4001CC403 /* ViewController.swift */; };
 		81D668A91BA7E8F4001CC403 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D668A71BA7E8F4001CC403 /* LaunchScreen.xib */; };
@@ -39,6 +42,10 @@
 /* Begin PBXFileReference section */
 		1866C0D01904E98AF053A157 /* Pods-WeatherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherDemo/Pods-WeatherDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		79A5173B5DEBCA8509A2BF4F /* Pods-WeatherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherDemo/Pods-WeatherDemo.release.xcconfig"; sourceTree = "<group>"; };
+		811C6EAA1BA85CD5004007B3 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		811C6EAB1BA85CD5004007B3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		811C6EAD1BA85E49004007B3 /* WeatherService_AFNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService_AFNetworking.swift; sourceTree = "<group>"; };
+		811C6EAF1BA8CB70004007B3 /* WeatherService_Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService_Alamofire.swift; sourceTree = "<group>"; };
 		81D668991BA7E8F4001CC403 /* WeatherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D6689D1BA7E8F4001CC403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81D6689E1BA7E8F4001CC403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +99,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		811C6EA91BA85CAA004007B3 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				811C6EAA1BA85CD5004007B3 /* SwiftyJSON.h */,
+				811C6EAB1BA85CD5004007B3 /* SwiftyJSON.swift */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
 		81D668901BA7E8F4001CC403 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +131,7 @@
 		81D6689B1BA7E8F4001CC403 /* WeatherDemo */ = {
 			isa = PBXGroup;
 			children = (
+				811C6EA91BA85CAA004007B3 /* ThirdParty */,
 				81D668C41BA7EA0C001CC403 /* Resources */,
 				81D668C31BA7EA06001CC403 /* Extensions */,
 				81D668C21BA7E9D7001CC403 /* Services */,
@@ -197,6 +214,8 @@
 		81D668C31BA7EA06001CC403 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				811C6EAD1BA85E49004007B3 /* WeatherService_AFNetworking.swift */,
+				811C6EAF1BA8CB70004007B3 /* WeatherService_Alamofire.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -378,7 +397,10 @@
 				81D668A11BA7E8F4001CC403 /* ViewController.swift in Sources */,
 				81D668D61BA81035001CC403 /* WeatherDisplay.swift in Sources */,
 				81D6689F1BA7E8F4001CC403 /* AppDelegate.swift in Sources */,
+				811C6EAC1BA85CD5004007B3 /* SwiftyJSON.swift in Sources */,
+				811C6EAE1BA85E49004007B3 /* WeatherService_AFNetworking.swift in Sources */,
 				81D668D31BA80D32001CC403 /* Weather.swift in Sources */,
+				811C6EB01BA8CB70004007B3 /* WeatherService_Alamofire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
