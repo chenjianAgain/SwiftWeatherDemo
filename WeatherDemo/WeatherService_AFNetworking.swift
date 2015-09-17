@@ -8,7 +8,6 @@
 
 import Foundation
 import CoreLocation
-import AFNetworking
 
 
 extension WeatherService {
